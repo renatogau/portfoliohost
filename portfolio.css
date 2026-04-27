@@ -1,4 +1,8 @@
-<style>
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--color-bg);transition:background var(--dur-md) var(--ease-out), color var(--dur-md) var(--ease-out)}
+body{overflow-x:hidden}
+main{min-height:100vh;position:relative}
+
   *{box-sizing:border-box}
   html,body{margin:0;background:var(--color-bg);transition:background var(--dur-md) var(--ease-out), color var(--dur-md) var(--ease-out)}
   body{overflow-x:hidden}
@@ -84,4 +88,3 @@
     .rp-say-hi{display:none!important}
   }
   @keyframes rpSideIn{from{transform:translateX(100%)}to{transform:translateX(0)}}
-</style>
