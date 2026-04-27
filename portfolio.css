@@ -88,3 +88,14 @@ main{min-height:100vh;position:relative}
     .rp-say-hi{display:none!important}
   }
   @keyframes rpSideIn{from{transform:translateX(100%)}to{transform:translateX(0)}}
+
+@media (max-width: 900px) {
+  .rp-cs-avatar {
+    display: none !important;
+  }
+
+  html.urcursor,
+  html.urcursor * {
+    cursor: auto !important;
+  }
+}
